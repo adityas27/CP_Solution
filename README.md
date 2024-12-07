@@ -10,11 +10,32 @@ This repository contains solutions to various C programming practical questions.
 
 ## Getting Started
 
-1. Clone this repository to your local machine or download zip file by clicking on green button on side and extract it:
-   ```bash
-   git clone https://github.com/adityas27/CP_Solution.git
-   ```
-2. Navigate to the directory containing the C programs.
+1. Navigate to the directory containing the C program.
     ```bash
-   cd CP_Solution
+   cd path
    ```
+2. Try compiling the program by
+    ```bash
+   gcc filename.c
+   ```
+   Here you might get errors
+   - Solve these errors
+   - You can ignore warnings
+   - Common errors: \
+      1. missing semi-colon ;
+      2. missing curly braces at places 
+3. Then run the compiled file (for linux based systems)
+    ```bash
+   ./a.out
+   ```
+4. Then run the compiled file (for windows systems)
+    ```bash
+   ./a.exe
+   ```
+
+### Changes in code(read this and recheck)
+1. First change
+    - There was minor error of format specifier and data type please check `2.c` 
+
+### This repo will go private by 0900 on 9th December
+

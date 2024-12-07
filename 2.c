@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
-    int sum, difference, product, quotient;
+    float num1, num2;
+    int sum, difference, product; 
+    float quotient;
 
     // Input two numbers
     printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%f %f", &num1, &num2);
 
     // Perform arithmetic operations
     sum = num1 + num2;
@@ -15,9 +16,9 @@ int main() {
     quotient = num1 / num2;
 
     // Display the results
-    printf("Addition: %.2f\n", sum);
-    printf("Subtraction: %.2f\n", difference);
-    printf("Multiplication: %.2f\n", product);
+    printf("Addition: %d\n", sum);
+    printf("Subtraction: %d\n", difference);
+    printf("Multiplication: %d\n", product);
     printf("Division: %.2f\n", quotient);
 
     return 0;
